@@ -9,13 +9,13 @@ int main(){
     scanf("%lf %lf",&a,&b);
     switch(op)
     {
-        case "+":printf("%.1lf+%.1lf =%.1lf",a,b,a+b);
+        case'+':printf("%.2lf+%.1lf =%.1lf",a,b,a+b);
         break;
-        case "-":printf("%.1lf-%.1lf =%.1lf",a,b,a-b);
+        case '-':printf("%.1lf-%.1lf =%.1lf",a,b,a-b);
         break;
-        case "*":printf("%.1lf*%.1lf =%.1lf",a,b,a*b);
+        case '*':printf("%.1lf*%.1lf =%.1lf",a,b,a*b);
         break;
-        case "/'":printf("%.1lf/%.1lf =%.1lf",a,b,a/b);
+        case '/':printf("%.1lf/%.1lf =%.1lf",a,b,a/b);
         break;
         default:printf("Error:operator is not correct");
     }
