@@ -1,5 +1,5 @@
-//making calculator using switch case
 #include<stdio.h>
+//making calculator using switch case
 int main(){
     char op;
     printf("Enter an operator:");
